@@ -1,0 +1,43 @@
+{
+    "views.main.Splendid!": "Splendider!",
+    "directives.language-select.Language": "Language en",
+    "Skills": "Skills",
+    "About": "About",
+    "Skills": "Skills",
+    "Projects": "Projects",
+    "Contact": "Contact",
+    "Main": "Hi!",
+
+    "ABOUT": "About",
+    "SKILLS": "Skills",
+    "PROJECTS": "Projects",
+    "CONTACT": "Contact",
+
+    "CONTACT_MODAL_TITLE": "Are you sure?!",
+    "CONTACT_MODAL_TEXT": "Press <strong>OK</strong> to go to my Facebook. I hope you liked my job! Thanks :3",
+
+    "MAIN_PAGE_DESCRIPTION": "Main en",
+    "ABOUT_PAGE_DESCRIPTION": "About en",
+    "SKILLS_PAGE_DESCRIPTION": "Skills en",
+    "PROJECTS_PAGE_DESCRIPTION": "Projects en",
+    "CONTACTS_PAGE_DESCRIPTION": "Contacts en",
+
+    "MAIN_TEXT": "<p>Glad to see you my beeeautiful foreigner <span class='vermelho'>♥</span></br>Maybe you already knows me. Anyway, let me introduce myself:</br> my name is Ademir Terin Junior, or only Junior. I'm a webdesigner/front-end developer living in São Paulo, Brazil. Do you like my country I like yours too, and I'm very interested to dev your projects remotely :)</p>",
+
+    "ABOUT_TEXT": "<p>Soon in english too</p>",
+
+    "CONTACT_TEXT": "Shake your device to redirect to my Facebook your little stalker!",
+
+    "HOW_MADE_TITLE": "The recipe",
+
+    "VCS": "Versions Control System",
+    "BASIC": "Basic",
+    "TASKRUNNERS_SKILL": "Grunt / Gulp + awesome modules",
+    "BOOTSTRAP_SKILL": "Express development using Bootstrap's native LESS / SASS variables, defining components and avoiding overwriting CSS (<a href='http://bootstrap-live-customizer.com/' target='_blank'>a hint</a> for designers to create a styleguide in Bootstrap)",
+
+    "BLOG_INCICLO_TEXT": "Description soon",
+    "TECHWARE_TEXT": "Description soon",
+    "PATRICIA_TEXT": "Description soon",
+    "MAK_TEXT": "Description soon",
+    "MAPCLASS_TEXT": "Description soon"
+}

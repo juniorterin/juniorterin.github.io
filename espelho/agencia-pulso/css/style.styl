@@ -1,0 +1,240 @@
+@media (min-width: 768px)
+	.no-padding-left
+		padding-left 0px
+	.no-padding-right
+		padding-right 0px
+
+@media (min-width: 1200px)
+	.container
+		width 970px
+		
+espacamento-vertical = 120px
+
+margem-texto = 40px
+
+fundo-padrao = #f3f3f3
+
+vermelho-escuro = #bf2323
+
+vermelho-comum = #ef2c2c
+
+laranja = #fec62f
+
+laranja-transparente = alpha(laranja, 0.6)
+	
+degrade-cinza-cor1 = #c8c8c8
+
+degrade-cinza-cor2 = white
+
+cinza-borda = #e5e5e5
+
+.padding-vertical
+	padding-top espacamento-vertical
+	padding-bottom espacamento-vertical
+
+	@media (max-width: 768px)
+		padding-top (espacamento-vertical /2)
+		padding-bottom 1px
+
+body
+	font-size 16px
+	background fundo-padrao
+	font-family 'Open Sans', sans-serif
+
+h1, h2, p
+	margin 0
+
+h1, h2
+	font-family 'Montserrat', sans-serif
+	font-weight bold
+
+h1
+	font-size 40px
+	margin-bottom margem-texto +30
+	
+	@media (max-width: 768px)
+
+		margin-bottom margem-texto
+
+strong
+	font-size 18px
+
+h2
+	font-size 20px
+
+p
+h2
+	margin-bottom margem-texto
+
+.bg-branco
+	background white
+	padding-right 15px
+	padding-left 15px
+
+.sombra
+	box-shadow 0px 0px 15.84px 0.16px rgba(0, 0, 0, 0.173)
+
+#vitrine
+	height 690px
+	background url('../img/iStock_000069839591_XXXLarge.jpg') no-repeat center center
+	background-size cover
+	position relative
+	@media (max-width: 768px)
+		background-position-x: 60%;
+	h1
+		font-family 'Oswald', sans-serif
+		font-size 140px
+		font-weight 300
+		color white
+		text-transform uppercase
+		@media (max-width: 768px)
+			text-align center
+			font-size 90px
+
+
+.triangulo-coracao
+	@media (max-width: 768px)
+		text-align center
+	img
+		width 100%
+		max-width 405px
+
+.owl-nav
+	position absolute
+	top 50%
+	width 100%
+	transform translateY(-50%)
+	i
+		&.fa
+			font-size 55px
+			color laranja-transparente
+			position relative
+			top -5px
+			transition 0.6s
+
+.owl-next
+	float right
+
+.owl-prev, .owl-next
+	display inline-block
+	width 60px
+	height 60px
+	text-align center
+	border 4px solid laranja-transparente
+	border-radius 100%
+	transition 0.6s
+	&:hover
+		border-color laranja
+		.fa
+			color laranja
+
+.owl-dots
+	text-align center
+
+.owl-dot
+	width 25px
+	height 25px
+	border-radius 100%
+	background laranja-transparente
+	display inline-block
+	margin 0 12.5px
+	transition 0.6s
+	&.active
+		background laranja
+
+.owl-stage-outer
+	@media (min-width: 769px)
+		margin 0 10px
+
+.tira
+	position absolute
+	bottom 0
+	img
+		width 100%
+		position relative
+		bottom -1px
+
+#inicio-conteudo
+	h1
+		text-transform uppercase
+		color vermelho-escuro
+		&:after
+			content ''
+			display block
+			width 234px
+			height 10px
+			margin-top 10px
+			background vermelho-escuro
+
+#box-centralizado
+	background url('../img/Layer-14.jpg') no-repeat center center
+	background-size cover
+	h2
+		color vermelho-comum
+	.box-centralizado-fundo
+		background url('../img/iStock_000060510800_Full.jpg') no-repeat center center
+		background-size cover
+		height 100%
+		width 100%
+	@media (max-width: 768px)
+		&.padding-vertical
+			padding-bottom (espacamento-vertical /2)
+
+.box-centralizado-txt
+	padding 45px 45px 1px
+
+.alimentos-imagem
+	@media (max-width: 767px)
+		height auto
+		min-height 150px
+		max-height 398px
+	img
+		position absolute
+		right 0
+		@media (min-width: 768px)
+			top -30px
+			height 110%
+		@media (max-width: 767px)
+			width 100%
+			left 0
+			bottom 0
+			
+.alimentos-degrade
+	background degrade-cinza-cor1
+	@media (min-width: 768px)
+		background -moz-linear-gradient(left,  degrade-cinza-cor1 1%, degrade-cinza-cor2 100%)
+		background -webkit-linear-gradient(left,  degrade-cinza-cor1 1%,degrade-cinza-cor2 100%)
+		background linear-gradient(to right,  degrade-cinza-cor1 1%,degrade-cinza-cor2 100%)
+	@media (max-width: 767px)
+		background -moz-linear-gradient(top, degrade-cinza-cor1 1%, degrade-cinza-cor2 100%)
+		background -webkit-linear-gradient(top, degrade-cinza-cor1 1%,degrade-cinza-cor2 100%)
+		background linear-gradient(to bottom, degrade-cinza-cor1 1%,degrade-cinza-cor2 100%)
+
+#alimentos
+	h2
+		font-size 44px
+		color laranja
+		&:after
+			content ''
+			display block
+			width 149px
+			height 9px
+			margin-top 10px
+			background laranja
+	.padding-vertical
+		@media (max-width: 767px)
+			padding-top 25px
+			margin-bottom (espacamento-vertical /2)
+
+.col-borda
+	@media (min-width: 768px)
+		&:nth-child(1)
+			.borda
+				border-top thin solid cinza-borda
+				border-bottom thin solid cinza-borda
+		&:nth-child(2)
+			.borda
+				border-top thin solid cinza-borda
+				border-right thin solid cinza-borda
+				border-bottom thin solid cinza-borda
+

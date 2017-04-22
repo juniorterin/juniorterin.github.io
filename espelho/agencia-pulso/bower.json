@@ -1,0 +1,33 @@
+{
+  "name": "pulso-teste",
+  "description": "Segundo teste feito pela agencia Pulso para vaga de front-end. Uso simples de carrossel e pre processadores CSS",
+  "main": "index.html",
+  "keywords": [
+    "teste",
+    "agencia",
+    "html",
+    "css",
+    "sass",
+    "stylus",
+    "jquery"
+  ],
+  "authors": [
+    "Ademir Terin Junior"
+  ],
+  "license": "MIT",
+  "homepage": "http://juniorter.in",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "componentes",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "owl.carousel": "^2.1.4",
+    "matchHeight": "matchheight#^0.7.0",
+    "font-awesome": "^4.6.3",
+  }
+}

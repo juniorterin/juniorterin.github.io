@@ -1,0 +1,94 @@
+﻿<html ng-app="app">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title ng-bind="'✝ JuniorTer.in ✝ ' + title + ' ✝'">✝ JuniorTer.in ✝</title>
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="✝ JuniorTer.in ✝ Portfólio e Laboratório ✝">
+	<meta name="twitter:description" content="Ademir Terin Junior é webdesigner criativo e mora no centro de São Paulo. Entre em contato mandando um e-mail para juniorterin@gmail.com">
+	<meta name="twitter:image" content="http://juniorter.in/img/card.png">
+	<meta property="og:title" content="✝ JuniorTer.in ✝ Portfólio e Laboratório ✝">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://juniorter.in">
+	<meta property="og:image" content="http://juniorterin.github.io/img/card.png">
+	<meta property="og:description" content="Ademir Terin Junior é webdesigner criativo e mora no centro de São Paulo. Entre em contato mandando um e-mail para juniorterin@gmail.com">
+	<meta property="og:email" content="juniorterin@gmail.com">
+	<meta property="og:phone_number" content="(19) 9 8121 1951">
+	<link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="./img/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#29A853">
+	<meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#29A853">
+	<link rel="stylesheet" href="css/css.css?v=1.0">
+	<link rel="stylesheet" href="css/grain.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+</head>
+<body class="inicio color">
+<div class="row">
+    <div class="col c3 barra-lateral">
+		<nav class="nav nav-glitch esconde-mobile" tabindex="-1" onclick="this.focus()">
+			<div class="menu">
+					<a ng-class="{active: activetab == '/'}" class="pagename current" href="#/home"><img class="logo color" src="img/avatar.png"></img></a>
+					<a class="link-menu lamina um" ng-class="{active: activetab == '/eu'}" href="#/eu"><span data-texto="Eu">Eu</span></a>
+					<a class="link-menu lamina dois" ng-class="{active: activetab == '/habilidades'}" href="#/habilidades"><span data-texto="Habilidades">Habilidades</span></a>
+					<a class="link-menu lamina tres" ng-class="{active: activetab == '/projetos'}" href="#/projetos"><span data-texto="Projetos">Projetos</span></a>
+					<a class="link-menu lamina quatro" ng-class="{active: activetab == '/contato'}" href="#/contato"><span data-texto="Contato">Contato</span></a>
+			</div>
+		</nav>
+		<div class="nav-glitch fat-nav">
+			<div class="fat-nav__wrapper">
+				<ul>
+					<li><a ng-class="{active: activetab == '/'}" class="pagename current" href="#/home"><img class="logo color"  src="img/avatar.png"></img></a></li>
+					<li><a class="link-menu" ng-class="{active: activetab == '/eu'}" href="#/eu"><span data-texto="Eu">Eu</span></a></li>
+					<li><a class="link-menu" ng-class="{active: activetab == '/habilidades'}" href="#/habilidades"><span data-texto="Habilidades">Habilidades</span></a></li>
+					<li><a class="link-menu" ng-class="{active: activetab == '/projetos'}" href="#/projetos"><span data-texto="Projetos">Projetos</span></a></li>
+					<li><a class="link-menu btn btn-sm color" ng-class="{active: activetab == '/contato'}" href="#/contato"><span data-texto="Contato">Contato</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="rodape esconde-mobile" ng-app ng-controller="Ctrl">
+			<p>JuniorTer.in - {{date | date:'yyyy'}}<br><span>花鳥風月</span></p>
+		</div>
+	</div>
+
+	<div class="col c9 conteudo" id="conteudo">
+		<div ng-view class="{{ pageClass }}"></div>
+		<div class="rodape esconde-desktop" ng-app ng-controller="Ctrl"><p>JuniorTer.in - {{date | date:'yyyy'}}<br><span>花鳥風月</span></p></div>
+	</div>
+</div>
+	<blink>
+	</blink>
+	<script src ="http://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src ="http://code.angularjs.org/1.2.0-rc.2/angular-animate.js" type="text/javascript" charset="utf-8"></script>
+	<script src ="http://code.angularjs.org/1.2.0-rc.2/angular-route.js" type="text/javascript" charset="utf-8"></script>
+	<script src="app/app.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/jquery.blast.min.js"></script>
+	<script src="js/velocity.min.js"></script>
+	<script src="js/velocity.ui.min.js"></script>
+	<script src="js/shake.js"></script>
+	<script src="js/pace.min.js"></script>
+	<link rel="stylesheet" href="js/pace.css">
+	<script src="js/sweetalert.min.js"></script>
+	<link rel="stylesheet" href="js/sweetalert.css">
+	<script src="js/jquery.fatNav.min.js"></script>
+	<link rel="stylesheet" href="js/jquery.fatNav.min.css">
+	<script src="js/main.js"></script>
+	<script src="app/controllers/controllers.js"></script>
+</body>
+</html>

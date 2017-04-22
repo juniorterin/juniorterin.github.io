@@ -1,0 +1,362 @@
+@charset "UTF-8";
+.spritz,
+.words {
+    /* max-width: 30rem */
+}
+.controls a,
+.light {
+    text-decoration: none
+}
+.spritz {
+    position: relative;
+    padding: 15px 0 12px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin: 100px auto;
+    font-size: 1em
+}
+.spritz:after,
+.spritz:before {
+    content: "";
+    position: absolute;
+    left: 40%;
+    height: 10px;
+    width: 2px;
+    margin-left: -1px;
+    background-color: #000
+}
+.night .spritz {
+    border-color: #555
+}
+.night .spritz:after,
+.night .spritz:before {
+    background-color: #555
+}
+.spritz:before {
+    top: 0
+}
+.spritz:after {
+    bottom: 0
+}
+.spritz-word {
+    font-size: 1.6em;
+    line-height: 1.6em;
+    height: 1.7em;
+    font-weight: 600;
+    color: #000
+}
+.night .spritz-word {
+    color: #bbb
+}
+.spritz-word div {
+    display: table-cell
+}
+.spritz-word div:first-child {
+    width: 40%;
+    text-align: right
+}
+.spritz-word div:nth-child(2) {
+    color: #e60000
+}
+.night .spritz-word div:nth-child(2) {
+    color: #ff4d4d
+}
+.spritz-word div:last-child {
+    width: 60%;
+    text-align: left
+}
+#alert,
+.controls,
+.wpm {
+    text-align: center
+}
+.controls:after {
+    content: "";
+    display: table;
+    clear: both
+}
+.controls a,
+.wpm {
+    display: inline-block
+}
+.controls a {
+    vertical-align: bottom;
+    color: #aaa;
+    transition: color 150ms linear
+}
+.controls a.active,
+.controls a:hover {
+    color: #777
+}
+.night .controls a {
+    color: #444
+}
+.night .controls a.active,
+.night .controls a:hover {
+    color: #999
+}
+.settings button,
+.settings input,
+.settings textarea {
+    box-sizing: border-box;
+    border: 0;
+    color: #000;
+    background: 0 0
+}
+.night .settings button,
+.night .settings input,
+.night .settings textarea {
+    color: #888
+}
+.settings button:focus,
+.settings input:focus,
+.settings textarea:focus {
+    outline: 0
+}
+.settings-controls {
+    max-width: 300px;
+    margin: 0 auto
+}
+.settings-controls .speed {
+    float: left
+}
+.settings-controls .interaction {
+    float: right
+}
+.settings-controls a {
+    font-size: 3rem;
+    line-height: 4rem
+}
+.settings-controls .save {
+    transition: opacity .2s linear;
+    opacity: 0;
+    font-size: 2.5rem
+}
+.paused .settings-controls .save {
+    opacity: 1
+}
+.autosave .settings-controls .save {
+    opacity: 0
+}
+.settings-controls .save.active {
+    opacity: .4!important
+}
+.settings-controls .pause {
+    margin: 0;
+    width: 40px;
+    text-align: center;
+    font-size: 4rem
+}
+.extra-controls .zoom,
+.wpm {
+    font-size: 2rem
+}
+.paused .settings-controls .pause:before {
+    content: "";
+    position: relative;
+    margin-left: -1px
+}
+.wpm {
+    position: relative;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 4rem;
+    vertical-align: top
+}
+.wpm::-webkit-inner-spin-button {
+    -webkit-appearance: none
+}
+.extra-controls {
+    margin: 5rem auto 0
+}
+.extra-controls .toggle {
+    font-size: 2rem;
+    padding: 1rem 100px
+}
+.extra-controls .togglable {
+    display: none
+}
+.extra-controls .zoom * {
+    display: inline-block;
+    padding: 10px
+}
+.extra-controls .autosave .checkbox {
+    display: none
+}
+.extra-controls .autosave .checkbox:checked+.checkbox-label:before {
+    content: ""
+}
+.extra-controls .autosave .checkbox-label {
+    user-select: none;
+    cursor: pointer
+}
+.extra-controls .autosave .checkbox-label:before {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    width: 10px;
+    vertical-align: top;
+    overflow: visible;
+    font-size: 1.8rem
+}
+.words {
+    margin: 0 auto;
+    position: relative;
+    transition: max-width .2s linear
+}
+#alert,
+.light {
+    position: absolute
+}
+.fullscreen .words {
+    max-width: 600px
+}
+.fullscreen .words .demo-words {
+    height: 400px
+}
+.words .demo-words {
+    width: 100%;
+    height: 5em;
+    transition: height .2s linear;
+    padding: 10px;
+    background-color: #eee
+}
+.words .demo-words::-webkit-scrollbar {
+    width: 5%
+}
+.words .demo-words::-webkit-scrollbar-thumb {
+    background: #d5d5d5
+}
+.night .words .demo-words {
+    background-color: #191919
+}
+.night .words .demo-words::-webkit-scrollbar-thumb {
+    background: #2d2d2d
+}
+.night .words .demo-words::-webkit-resizer {
+    background: #141414
+}
+.progress-bar {
+    height: 2px;
+    width: 0;
+    background: red;
+    opacity: .4
+}
+.words-controls {
+    margin: 0 0 2rem
+}
+.words-controls a {
+    margin: 0 .6rem;
+    font-size: 2rem;
+    line-height: 2rem
+}
+.words-controls .refresh {
+    font-size: 2.6rem
+}
+.fullscreen .words-controls .expand:before {
+    content: ""
+}
+.light {
+    top: 2rem;
+    left: 3rem;
+    font-size: 3rem;
+    font-family: Spritz, sans-serif
+}
+.light:after {
+    content: "";
+    color: #aaa
+}
+.night .light:after {
+    content: "";
+    color: #444
+}
+#alert {
+    top: 0;
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    left: 0;
+    pointer-events: none
+}
+html {
+    font-size: 10px
+}
+body {
+    background: #ddd;
+    color: #000;
+    transition: background .1s linear;
+    margin: 3rem
+}
+.night body {
+    background: #000;
+    color: #888
+}
+body,
+button,
+input,
+textarea {
+    font-size: 1.4rem;
+    font-family: Open Sans, sans-serif
+}
+::selection {
+    background: #aaa;
+    color: #eee
+}
+.night::selection {
+    background: #444;
+    color: #191919
+}
+@font-face {
+    font-family: Spritz;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2361/spritz.eot?ziiuop);
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2361/spritz.eot?#iefixziiuop) format("embedded-opentype"), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2361/spritz.woff?ziiuop) format("woff"), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2361/spritz.ttf?ziiuop) format("truetype"), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2361/spritz.svg?ziiuop#spritz) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+[class*=entypo-]:before {
+    font-family: Spritz, sans-serif
+}
+.entypo-fast-backward:before {
+    content: ""
+}
+.entypo-fast-forward:before {
+    content: ""
+}
+.entypo-save:before {
+    content: ""
+}
+.entypo-left-open:before {
+    content: ""
+}
+.entypo-pause:before {
+    content: ""
+}
+.entypo-right-open:before {
+    content: ""
+}
+.entypo-dot-3:before {
+    content: ""
+}
+.entypo-minus:before {
+    content: ""
+}
+.entypo-search:before {
+    content: ""
+}
+.entypo-plus:before {
+    content: ""
+}
+.entypo-cancel:before {
+    content: ""
+}
+.entypo-doc-text:before {
+    content: ""
+}
+.entypo-cycle:before {
+    content: ""
+}
+.entypo-resize-full:before {
+    content: ""
+}

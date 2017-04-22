@@ -1,0 +1,43 @@
+{
+    "views.main.Splendid!": "Splendido!",
+    "directives.language-select.Language": "Language br",
+    "Skills": "Habilidades",
+    "About": "Eu",
+    "Skills": "Habilidades",
+    "Projects": "Projetos",
+    "Contact": "Contato",
+    "Main": "Oi! Tudo bem?",
+
+    "ABOUT": "Eu",
+    "SKILLS": "Habilidades",
+    "PROJECTS": "Projetos",
+    "CONTACT": "Contato",
+
+    "CONTACT_MODAL_TITLE": "Você está certo(a) disso?",
+    "CONTACT_MODAL_TEXT": "Dá um OK aí para entrar no meu Facebook! Agradeço a estadia e espero que tenha gostado :3",
+
+    "MAIN_PAGE_DESCRIPTION": "Main br",
+    "ABOUT_PAGE_DESCRIPTION": "About br",
+    "SKILLS_PAGE_DESCRIPTION": "Skills br",
+    "PROJECTS_PAGE_DESCRIPTION": "Projects br",
+    "CONTACTS_PAGE_DESCRIPTION": "Contact br",
+
+    "MAIN_TEXT": "<p>Que bom que você veio <span class='vermelho'>♥</span> </br>Pode ser que você me conheça ou não. Todo caso, deixe-me apresentar:</br> Meu nome é Ademir Terin Junior, ou apenas Junior. Sou webdesigner/front-end e moro em São Paulo, Mooca.<br>Se estiver procurando um freela, veio ao lugar certo! Mas se sua empresa estiver com uma vaga bem bonita aberta e que me interesse: vamos conversar!</p>",
+    "ABOUT_TEXT": "<p ><strong>Sr. Ademir Terin Junior</strong> desde <strong>28/02/1989</strong>. Solteiro. Moro sozinho em <strong> São Paulo</strong>. <strong>CNH A/B</strong>. Bem humorado e extremamente sociável, pois <strong>peixes com ascendente em touro</strong>. Não sou fumante!</p><p class='visible-xs'>Se você quiser acessar meu Facebook é só chacoalhar o celular que você será redirecionado.</p><p >Vou tentar ser o mais detalhista ao que se refere meu trabalho, assim não perdemos tanto tempo com entrevistas e telefonemas: posso criar layouts seja ele web ou mobile, desenvolvo todo o wireframe (o entra-e-sai da aplicação/website) e além disso tenho sólido conhecimento com HTML5, CSS3 e JS também voltado a animações o que facilita na hora de dar uma ideia na interação usuário-aplicação. Quanto ao uso de frameworks CSS como Bootstrap ou qualquer outro CSS, ou JS (sim, estamos falando do jQuery, mas pode ser qualquer outro que tenha uma boa documentação): deixa comigo que eu manjo! Consigo me virar legal com Javascript puro. Aliás, tenho um TOC fortíssimo quanto à organização dos meus códigos, então pode ficar tranquilo que todo mundo que for desenvolver posteriormente não vai sofrer na minha mão! Meu modus operandi é desenvolver rápido e de maneira leve, visto que web hoje tem toda voltada para conteúdo vs performance. Já reparou no layout do Medium.com? Eu acho aquilo incrível!</p><p >Apesar de não ser um mago do PHP (Stackoverflow é meu guru em alguns momentos de dificuldade), sou um usuário xiita do Wordpress, tendo desenvolvido alguns layouts originais (apenas me dê um servidor VPS e eu me viro deixando liso e configurando a máquina com Nginx, PHP, MySQL, etc., sem dores de cabeça!). Ah sim: também já fiz algumas experiências com sistemas de e-learning on-demand (Sensei), WooCommerce e plugins para exportação/importação de produtos baseados em tabelas de Excel caso apareça um cliente querendo abrir um e-commerce que possui 29485 produtos.</p><p >Nesse dado momento estou focando em poder trabalhar com web-components (já consigo fazer um site onepage extremamente veloz!) pra posteriormente desenvolver em MEAN stack. Sou extremamente aficionado por essa nova onda de programação leve e robusta baseadada em Javascript server-side.</p><p >Atualmente meu foco é trabalhar em uma empresa da qual futuramente possa me engajar em projetos criativos que solucionem problemas mundanos como por exemplo o desperdício de comida ou a alta taxa emissão de poluentes (haha).</p><p >Resumindo: não me prendo particularmente à códigos e termos técnicos. Prefiro sempre visualizar a toda experiência daquilo que desenvolvo e acompanhar pequenos detalhes buscando incorporar a ótica do usuário final.</p>",
+
+    "CONTACT_TEXT": "Chacoalhe seu dispositivo para acessar meu Facebook!",
+
+    "HOW_MADE_TITLE": "A receita é simples:",
+
+    "VCS": "Versionamento GIT",
+    "BASIC": "Básico",
+    "TASKRUNNERS_SKILL": "Grunt / Gulp + módulos milagrosos",
+    "BOOTSTRAP_SKILL": "Desenvolvimento rápido usando variáveis nativas do LESS/SASS do Bootstrap, definindo componentes e evitando ao máximo sobreescrever CSS (<a href='http://bootstrap-live-customizer.com/' target='_blank'>uma dica</a> para os designers criar um styleguide em Bootstrap)",
+
+    "BLOG_INCICLO_TEXT": "Descrição em breve",
+    "TECHWARE_TEXT": "Descrição em breve",
+    "PATRICIA_TEXT": "<p>Mais um trampo feito pela Mak encomendado pela Patricia Bornato, empresária de diversos segmentos com 20 anos de experiência. Se trata de um exclusivo agregado de investimento e serviços voltado ao público AAA, desde imóveis (podendo fazer uma tour 360) até aluguel de aeronaves. Mas muita calma jovem: todo o conteúdo 'VIP' só pode ser acessado por quem tiver o código de acesso exclusivo. <a href='http://www.patriciabornato.com.br' target='_blank'>Veja mais aqui</a>. Veja um espelho de como é o conteúdo exlusivo <a href='http://imob.juniorter.in/' target='_blank'>clicando aqui</a> e usando o código <strong>Patricia</strong> para acessar</p>",
+    "MAK_TEXT": "<p>Layout criado pelo pessoal da própria Mak com base em projetos conceituais garimpados no querido do Awwwards. Basicamente é WordPress, CSS3 e ação! Todo conteúdo dinâmico, com menus intuitivos e de fácil acesso na área administrativa. Pode parecer um simples site 'one-page', mas todo conteúdo postado, seja um case ou plataforma proprietária, possui uma estrutura e URL própria, dando grande abertura para o SEO. Um projeto extremamente simples de dar manutenção, sem aquela dor de cabeça de ter que ficar entrando em contato comigo. Veja com os próprios olhos <a href='http://www.agenciamak.com.br' target='_blank'>aqui</a>!</p>",
+    "MAPCLASS_TEXT": "Descrição em breve"
+
+}
